@@ -22,8 +22,8 @@ there is an error in Line 54 under WrappedListComponent.propTypes it shoud be co
 
 Answer :-  Correct code <br/>
 
-
- ``` import React, { useState, useEffect, memo } from 'react';
+```
+import React, { useState, useEffect, memo } from 'react';
 import PropTypes from 'prop-types';
 
 // Single List Item
@@ -104,7 +104,7 @@ WrappedListComponent.defaultProps = {
 const List = memo(WrappedListComponent);
 
 export default List;
-
+```
 
 
 
